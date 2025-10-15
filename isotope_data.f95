@@ -25,6 +25,7 @@ module isotope_data
     type(decay_mode_type), dimension(max_decay_modes) :: decay_modes
   end type isotope
 
+  !type(isotope), dimension(max_isotopes) :: isotope_list
   type(isotope), dimension(max_isotopes) :: isotope_list
 
 contains

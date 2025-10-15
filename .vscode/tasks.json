@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "gfortran",
+      "args":[
+        "-o",
+        "burnup",
+        "burnup.f95",
+        "isotope_data.f95",
+        "load_isotopes.f95"
+      ],
+      "group": "build"
+    }
+  ]
+}
+
